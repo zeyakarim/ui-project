@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  border-top: 5px solid #517BC3;
+  border-radius: 5px 5px 0px 0px;
+}
+nav{
+  padding: 1% 2% 0;
+}
+.navbar{
+  color: #517BC3;
+  display: flex;
+  justify-content: space-between;
+}
+.listbox1 {
+  display: flex;
+  margin-top: 10px;
+}
+.back p{
+  margin: 0px 5px;
+  font-size: 21px;
+}
+.listbox2{
+  margin-left: 20px;
+  display: flex;
+  
+}
+.listbox2 .highlight{
+  background-color: #517BC3;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+.listbox2 p{
+  margin: 0 10px;
+  font-size: 15px;
+  padding: 12px 15px;
+}
+
+.listbox3{
+  display: flex;
+}
+.listbox3 p{
+  margin: 0px 10px;
+  font-size: 15px;
+  padding: 12px 15px;
+}
+nav hr{
+  padding: 0 2%;
+}
+.mainContainer{
+  padding:0  2%;
+  width: 55%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.contentbox{
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  color: #517BC3;
+  width: 115px;
+}
+.contentbox p{
+  margin: 5px;
+  text-decoration: underline;
+  text-align: center;
+}
+.billing{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.billingContainer{
+  width: 48%;
+}
+.icon{
+  display: flex;
+}
+.icon div{
+  margin-left: 10px;
+}
+.box1{
+  display:flex; 
+  justify-content: space-between;
+}
+.box2 select{
+  width: 100%;
+  padding: 7px;
+  color: gray;
+  font-size: 15px;
+}
+.box2{
+  display: flex;
+}
+.box3 {
+  color: #008636;
+}
+.box3>div{
+  display: flex;
+}
+.inputContainer{
+  width: 46%;
+}
+.inputContainer input{
+  width: 100%;
+  padding: 7px;
+  color: gray;
+  font-size: 15px;
+}
+.checkbox{
+  display: flex;
+  margin: 20px 0px;
+}
+.checkbox h5{
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.generatebill{
+
+  display: flex;
+  width: 50%;
+  padding: 1% 2%;
+}
+.generate{
+  display: flex;
+  width: 35%;
+  background-color: #D5755F;
+  color: #fff;
+  padding: 8px;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.generatebill p{
+  margin: 0;
+  margin-left: 8px;
+}
+.preview{
+  display: flex;
+  color: white;
+  background-color: #517BC3;
+  padding: 8px;
+  border: 1px solid gray;
+  border-left: 0;
+}
+.file{
+  background-color: #fff;
+  color: #517BC3;
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-left: 0;
+}
+.print{
+  display: flex;
+  color: white;
+  background-color: #517BC3;
+  padding: 8px;
+  border: 1px solid gray;
+  border-left: 0;
+}
+.generateBillContainer{
+  display: flex;
+}
+
+.generatebill2{
+  display: flex;
+  width: 40%;
+  padding: 1% 2%;
+}
+.envelop{
+  background-color: #517BC3;
+  color: #fff;
+  padding: 8px;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.previewEye{
+  color: #517BC3;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid gray;
+  border-left: 0;
+}
+.change{
+  color: #517BC3;
+  background-color: #fff;
+}
+.mobile{
+  background-color: #517BC3;
+  color: #fff;
+  display: flex;
+}
+.mobile p{
+  margin: 0;
+  padding: 0 10px;
+  font-size: 15px;
+
+}
+.main{
+  display: flex;
+}
+.aside{
+  width: 35%;
+  margin: 10px auto;
+}
+.asideContainer .header{
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px 3px 0px 0px;
+  padding: 5px 0px;
+}
+
+.asideContainer .header p{
+  margin: 0;
+}
+.asideBox{
+  display: flex;
+  justify-content: space-between;
+}
+.asideBox h4{
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.asideBox p{
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.asideboxes{
+  padding: 0px 10px;
+  border: 1px solid gray;
+  border-top: 0;
+  border-radius: 0px 0px 3px 3px;
+}
